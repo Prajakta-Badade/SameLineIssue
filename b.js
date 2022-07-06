@@ -50,12 +50,12 @@ const { spawn } = require('child_process');
   }
 
   for (let i = 0; i < demoFiles.length; i += 1) {
-    const demoPath = demoFiles[i];
+    /*const demoPath = demoFiles[i];
 
     const content = await fs.readFile(demoPath, 'utf8');
     const script = getTypescriptDemo(content, demoPath);
 
-    const dirs = path.dirname(demoPath).split(path.sep);
+    const dirs = path.dirname(demoPath).split(path.sep); */
 
     // Parse TSX
     if (script) {
